@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Dashboard.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Dashboard.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dashboard.Contracts.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dashboard.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../Contracts/Dashboard.Contracts/Dashboard.Contracts.csproj",
+      "msbuildProject": "../../Contracts/Dashboard.Contracts/Dashboard.Contracts.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Dashboard.Contracts >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\samar\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
+              "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

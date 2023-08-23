@@ -107,6 +107,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Dashboard.Application.AppServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Dashboard.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dashboard.Application.AppServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dashboard.Application.AppServices.dll": {}
+        }
+      },
+      "Dashboard.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Dashboard.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dashboard.Contracts.dll": {}
+        }
+      },
+      "Dashboard.Infrastructure.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Dashboard.Application.AppServices": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dashboard.Infrastructure.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dashboard.Infrastructure.DataAccess.dll": {}
+        }
       }
     }
   },
@@ -460,10 +496,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Dashboard.Application.AppServices/1.0.0": {
+      "type": "project",
+      "path": "../../Application/Dashboard.Application.AppServices/Dashboard.Application.AppServices.csproj",
+      "msbuildProject": "../../Application/Dashboard.Application.AppServices/Dashboard.Application.AppServices.csproj"
+    },
+    "Dashboard.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../Contracts/Dashboard.Contracts/Dashboard.Contracts.csproj",
+      "msbuildProject": "../../Contracts/Dashboard.Contracts/Dashboard.Contracts.csproj"
+    },
+    "Dashboard.Infrastructure.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/Dashboard.Infrastructure.DataAccess/Dashboard.Infrastructure.DataAccess.csproj",
+      "msbuildProject": "../../Infrastructure/Dashboard.Infrastructure.DataAccess/Dashboard.Infrastructure.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Dashboard.Application.AppServices >= 1.0.0",
+      "Dashboard.Contracts >= 1.0.0",
+      "Dashboard.Infrastructure.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.9",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -499,7 +553,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
+              "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj"
+            },
+            "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
+              "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj"
+            },
+            "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj": {
+              "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

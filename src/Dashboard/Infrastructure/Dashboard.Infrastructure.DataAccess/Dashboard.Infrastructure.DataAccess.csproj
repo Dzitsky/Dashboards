@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Application\Dashboard.Application.AppServices\Dashboard.Application.AppServices.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Dashboard.Application.AppServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Dashboard.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dashboard.Application.AppServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dashboard.Application.AppServices.dll": {}
+        }
+      },
+      "Dashboard.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Dashboard.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dashboard.Contracts.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dashboard.Application.AppServices/1.0.0": {
+      "type": "project",
+      "path": "../../Application/Dashboard.Application.AppServices/Dashboard.Application.AppServices.csproj",
+      "msbuildProject": "../../Application/Dashboard.Application.AppServices/Dashboard.Application.AppServices.csproj"
+    },
+    "Dashboard.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../Contracts/Dashboard.Contracts/Dashboard.Contracts.csproj",
+      "msbuildProject": "../../Contracts/Dashboard.Contracts/Dashboard.Contracts.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Dashboard.Application.AppServices >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\samar\\.nuget\\packages\\": {},
@@ -37,7 +74,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
+              "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
