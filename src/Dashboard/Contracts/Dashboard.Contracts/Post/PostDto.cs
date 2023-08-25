@@ -1,7 +1,7 @@
 ﻿using Dashboard.Contracts.Attachment;
 using Dashboard.Contracts.Base;
 
-namespace Dashboard.Contracts;
+namespace Dashboard.Contracts.Post;
 
 /// <summary>
 /// Объявление.

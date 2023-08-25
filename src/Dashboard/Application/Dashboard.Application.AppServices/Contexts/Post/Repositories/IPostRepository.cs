@@ -1,4 +1,5 @@
 using Dashboard.Contracts;
+using Dashboard.Contracts.Post;
 
 namespace Dashboard.Application.AppServices.Contexts.Post.Repositories;
 
@@ -14,4 +15,12 @@ public interface IPostRepository
     /// <param name="cancellationToken">Отмена операции.</param>
     /// <returns>Модель объявления <see cref="PostDto"/></returns>
     Task<PostDto> GetByIdAsync(Guid id, CancellationToken cancellationToken);
+    
+    /// <summary>
+    /// Создаёт объявление по модели.
+    /// </summary>
+    /// <param name="model">Модель объявления.</param>
+    /// <param name="cancellationToken">Токен отмены.</param>
+    /// <returns>Идентификатор созданной сущности.</returns>
+    Task<Guid> CreateAsync(Domain.Posts.Post model, CancellationToken cancellationToken);
 }
