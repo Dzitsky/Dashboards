@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cb/yOnVn2g4SH0r+6ujZbuWdZ+o5OPzebhqKkGR430tYNL0n51qg0z2qpXeXBE6RTMX0058x7N8gALIPFaHDkQ==",
+  "dgSpecHash": "1zbZ9O7roJPRTlEDzdJvNCwWecjnuRuS1Zc40Ft3k578zGCh1fpyPjDfc989GClsjHAIUi7RKfrWScK+FQcLxg==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj",
+  "projectFilePath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h/IhQXaKVRirYlC1LAI6cWkhiAMtodsL1jRgh2CTse+CkvKWyNjEFawLzSy4qDTmEV1R+Mtz8MqjFUEUZX90qw==",
+  "dgSpecHash": "hkMZuTsRkrnnQQ+otBnxETZYDO96km2tjPstJCscpjaAGJ34jakMLssaUWusaqWsHDFxq0vLEFyBgtIXqcvsrw==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
+  "projectFilePath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -19,7 +19,7 @@ public class PostService : IPostService
     }
 
     /// <inheritdoc />
-    public Task<PostDto> GetByIdAsync(Guid id, CancellationToken cancellationToken)
+    public Task<Domain.Posts.Post> GetByIdAsync(Guid id, CancellationToken cancellationToken)
     {
         return _postRepository.GetByIdAsync(id, cancellationToken);
     }

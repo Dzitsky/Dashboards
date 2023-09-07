@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\DemoApp\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\Dashboard.Hosts.Api.csproj": {}
+    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\Dashboard.Hosts.Api.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
+    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
         "projectName": "Dashboard.Application.AppServices",
-        "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
-        "packagesPath": "C:\\Users\\samar\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\obj\\",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
+        "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
-                "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj"
+              "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
+                "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj"
+              },
+              "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj": {
+                "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj"
               }
             }
           }
@@ -62,24 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
+    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj",
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj",
         "projectName": "Dashboard.Contracts",
-        "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj",
-        "packagesPath": "C:\\Users\\samar\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\obj\\",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj",
+        "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,24 +117,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\DemoApp\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\Dashboard.Hosts.Api.csproj": {
+    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\DemoApp\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\Dashboard.Hosts.Api.csproj",
-        "projectName": "Dashboard.Hosts.Api",
-        "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\Dashboard.Hosts.Api.csproj",
-        "packagesPath": "C:\\Users\\samar\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\obj\\",
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj",
+        "projectName": "Dashboard.Domain",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj",
+        "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -145,21 +139,75 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\Dashboard.Hosts.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\Dashboard.Hosts.Api.csproj",
+        "projectName": "Dashboard.Hosts.Api",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\Dashboard.Hosts.Api.csproj",
+        "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Hosts\\Dashboard.Hosts.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
-                "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj"
+              "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
+                "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj"
               },
-              "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
-                "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj"
+              "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
+                "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj"
               },
-              "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj": {
-                "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj"
+              "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj": {
+                "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj"
               }
             }
           }
@@ -177,6 +225,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -202,24 +256,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj": {
+    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj",
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj",
         "projectName": "Dashboard.Infrastructure.DataAccess",
-        "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\samar\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\obj\\",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\Dashboard.Infrastructure.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -233,8 +284,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
-                "projectPath": "E:\\Projects\\DemoApp\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj"
+              "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
+                "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj"
               }
             }
           }
@@ -248,6 +299,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -264,7 +329,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
