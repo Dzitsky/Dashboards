@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3THaIVQB1MgThFQAgzA7CE733S3dAUcPLyr3P7bBcgqbG5ChwxKkeA03t5iSgpVXXgemO0EhfaVyAW/X59tqtg==",
+  "dgSpecHash": "B15usdlU7R8PJQ4e8MufO1qJ+689QSOn6xqyPwMaa5F/L3dLl8G3k2LDDBkmv6jUaGpPpC6GTTrHzGigX9ytmg==",
   "success": true,
-  "projectFilePath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure\\Dashboard.Infrastructure.csproj",
+  "projectFilePath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure\\Dashboard.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dzits\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\dzits\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

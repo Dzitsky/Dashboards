@@ -4,6 +4,7 @@ using Dashboard.Contracts;
 using Dashboard.Contracts.Post;
 using Dashboard.Hosts.Api.Controllers;
 using Dashboard.Infrastructure.DataAccess.Contexts.Post.Repositories;
+using Dashboard.Infrastructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,8 +31,10 @@ builder.Services.AddSwaggerGen(s =>
     }
 });
 
-builder.Services.AddTransient<IPostService, PostService>();
-builder.Services.AddTransient<IPostRepository, PostRepository>();
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+builder.Services.AddScoped<IPostService, PostService>();
+builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 var app = builder.Build();
 

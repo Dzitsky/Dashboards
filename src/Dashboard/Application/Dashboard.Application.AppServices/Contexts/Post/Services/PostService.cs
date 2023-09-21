@@ -7,7 +7,7 @@ namespace Dashboard.Application.AppServices.Contexts.Post.Services;
 /// <inheritdoc />
 public class PostService : IPostService
 {
-    private readonly IPostRepository _postRepository;
+    private readonly IRepository<Domain.Posts.Post> _postRepository;
 
     /// <summary>
     /// Инициализирует экзепляр <see cref="PostService"/>

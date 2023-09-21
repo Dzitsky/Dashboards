@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {}
+    "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {}
   },
   "projects": {
-    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
+    "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
         "projectName": "Dashboard.Application.AppServices",
-        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\Dashboard.Application.AppServices.csproj",
         "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
-        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\obj\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Application\\Dashboard.Application.AppServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
-                "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj"
+              "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
+                "projectPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj"
               },
-              "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj": {
-                "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj"
+              "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj": {
+                "projectPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj"
               }
             }
           }
@@ -62,18 +62,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
+    "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj",
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj",
         "projectName": "Dashboard.Contracts",
-        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\Dashboard.Contracts.csproj",
         "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
-        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\obj\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Contracts\\Dashboard.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,18 +117,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj": {
+    "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj",
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj",
         "projectName": "Dashboard.Domain",
-        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Domain\\Dashboard.Domain\\Dashboard.Domain.csproj",
         "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
-        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Domain\\Dashboard.Domain\\obj\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Domain\\Dashboard.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,7 +172,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

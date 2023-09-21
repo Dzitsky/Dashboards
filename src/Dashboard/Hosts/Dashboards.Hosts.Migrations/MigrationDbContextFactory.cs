@@ -11,11 +11,9 @@ namespace Dashboards.Hosts.DbMigrator
     {
         public MigrationDbContext CreateDbContext(string[] args)
         {
-            //var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
-            ///var configuration = builder.Build();
-            //var connectionString = configuration.GetConnectionString("PostgresBoardDb");
-
-            var connectionString = "Host=localhost;Database=Board;Username=postgres;Password=password";
+            var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            var configuration = builder.Build();
+            var connectionString = configuration.GetConnectionString("PostgresBoardDb");
 
             var dbContextOptionsBuilder = new DbContextOptionsBuilder<MigrationDbContext>();
             dbContextOptionsBuilder.UseNpgsql(connectionString);
