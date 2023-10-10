@@ -1,8 +1,11 @@
+using Dashboard.Application.AppServices.Contexts.Files.Repositories;
+using Dashboard.Application.AppServices.Contexts.Files.Services;
 using Dashboard.Application.AppServices.Contexts.Post.Repositories;
 using Dashboard.Application.AppServices.Contexts.Post.Services;
 using Dashboard.Contracts;
 using Dashboard.Contracts.Post;
 using Dashboard.Hosts.Api.Controllers;
+using Dashboard.Infrastructure.DataAccess.Contexts.Files.Repositories;
 using Dashboard.Infrastructure.DataAccess.Contexts.Post.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,8 +33,11 @@ builder.Services.AddSwaggerGen(s =>
     }
 });
 
+builder.Services.AddTransient<IFileService, FileService>();
 builder.Services.AddTransient<IPostService, PostService>();
+
 builder.Services.AddTransient<IPostRepository, PostRepository>();
+builder.Services.AddTransient<IFileRepository, FileRepository>();
 
 var app = builder.Build();
 
