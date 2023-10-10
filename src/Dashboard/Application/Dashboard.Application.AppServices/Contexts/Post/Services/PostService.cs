@@ -1,13 +1,14 @@
 using Dashboard.Application.AppServices.Contexts.Post.Repositories;
 using Dashboard.Contracts;
 using Dashboard.Contracts.Post;
+using Dashboard.Infrastructure.Repository;
 
 namespace Dashboard.Application.AppServices.Contexts.Post.Services;
 
 /// <inheritdoc />
 public class PostService : IPostService
 {
-    private readonly IRepository<Domain.Posts.Post> _postRepository;
+    private readonly IPostRepository _postRepository;
 
     /// <summary>
     /// Инициализирует экзепляр <see cref="PostService"/>

@@ -1,12 +1,11 @@
 using Dashboard.Contracts.Post;
-using Dashboard.Infrastructure.Repository;
 
 namespace Dashboard.Application.AppServices.Contexts.Post.Repositories;
 
 /// <summary>
 /// Репозиторий для работы с объявлениями.
 /// </summary>
-public interface IPostRepository : IRepository<Domain.Entities.Post>
+public interface IPostRepository
 {
     /// <summary>
     /// Возвращает объявление по идентификатору.
