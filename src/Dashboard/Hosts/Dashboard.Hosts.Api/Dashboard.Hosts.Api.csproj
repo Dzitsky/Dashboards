@@ -38,6 +38,7 @@
       <ProjectReference Include="..\..\Application\Dashboard.Application.AppServices\Dashboard.Application.AppServices.csproj" />
       <ProjectReference Include="..\..\Contracts\Dashboard.Contracts\Dashboard.Contracts.csproj" />
       <ProjectReference Include="..\..\Infrastructure\Dashboard.Infrastructure.DataAccess\Dashboard.Infrastructure.DataAccess.csproj" />
+      <ProjectReference Include="..\..\Infrastructure\Dashboard.Infrastructure\Dashboard.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

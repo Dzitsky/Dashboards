@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dashboard.Clients
-build_property.ProjectDir = D:\Projs\Academy\Dashboards\src\Dashboard\Clients\Dashboard.Clients\
+build_property.ProjectDir = D:\Projs\Academy\Dashboards-2023.2\src\Dashboard\Clients\Dashboard.Clients\

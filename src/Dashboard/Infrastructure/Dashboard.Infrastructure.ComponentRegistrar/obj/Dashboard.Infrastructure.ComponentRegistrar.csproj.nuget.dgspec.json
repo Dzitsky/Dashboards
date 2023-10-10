@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj": {}
+    "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj": {}
   },
   "projects": {
-    "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj": {
+    "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj",
+        "projectUniqueName": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj",
         "projectName": "Dashboard.Infrastructure.ComponentRegistrar",
-        "projectPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj",
+        "projectPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\Dashboard.Infrastructure.ComponentRegistrar.csproj",
         "packagesPath": "C:\\Users\\dzits\\.nuget\\packages\\",
-        "outputPath": "D:\\Projs\\Academy\\Dashboards\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\obj\\",
+        "outputPath": "D:\\Projs\\Academy\\Dashboards-2023.2\\src\\Dashboard\\Infrastructure\\Dashboard.Infrastructure.ComponentRegistrar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dzits\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
