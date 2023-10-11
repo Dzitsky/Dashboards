@@ -1,6 +1,5 @@
 using Dashboard.Application.AppServices.Contexts.Post.Repositories;
-using Dashboard.Contracts;
-using Dashboard.Contracts.Post;
+using Dashboard.Infrastructure.Repository;
 
 namespace Dashboard.Infrastructure.DataAccess.Contexts.Post.Repositories;
 
@@ -22,6 +21,6 @@ public class PostRepository : IPostRepository
 
     public Task<Domain.Posts.Post> GetByIdAsync(Guid id, CancellationToken cancellationToken)
     {
-        return _repository.GetByIdAsync(id,cancellationToken);
+        return _repository.GetByIdAsync(id, cancellationToken);
     }
 }

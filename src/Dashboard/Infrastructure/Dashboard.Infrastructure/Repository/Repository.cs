@@ -6,6 +6,7 @@ namespace Dashboard.Infrastructure.Repository
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         protected DbContext DbContext { get; }
+
         protected DbSet<TEntity> DbSet { get; }
 
         public Repository(DbContext context)
@@ -30,7 +31,7 @@ namespace Dashboard.Infrastructure.Repository
 
         public async Task<TEntity> GetByIdAsync(Guid id, CancellationToken cancellationToken)
         {
-            return await DbSet.FindAsync(id);
+            return await DbSet.FindAsync(id, cancellationToken);
         }
 
         public async Task AddAsync(TEntity model)

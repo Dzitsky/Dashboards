@@ -1,9 +1,5 @@
-﻿using System;
-using System.Net;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Net;
 using Dashboard.Application.AppServices.Contexts.Post.Services;
-using Dashboard.Contracts;
 using Dashboard.Contracts.Post;
 using Microsoft.AspNetCore.Mvc;
 
@@ -44,7 +40,7 @@ public class PostController : ControllerBase
     public async Task<IActionResult> GetByIdAsync(Guid id, CancellationToken cancellationToken)
     {
         var result = await _postService.GetByIdAsync(id, cancellationToken);
-        return Ok(result);
+        return result != null ? Ok(result) : NotFound();
     }
 
     /// <summary>
