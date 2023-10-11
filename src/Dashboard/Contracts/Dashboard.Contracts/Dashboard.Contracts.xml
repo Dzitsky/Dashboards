@@ -35,6 +35,26 @@
             Идентификатор сущности.
             </summary>
         </member>
+        <member name="T:Dashboard.Contracts.Files.FileDto">
+            <summary>
+            Модель файла.
+            </summary>
+        </member>
+        <member name="P:Dashboard.Contracts.Files.FileDto.Name">
+            <summary>
+            Имя.
+            </summary>
+        </member>
+        <member name="P:Dashboard.Contracts.Files.FileDto.Content">
+            <summary>
+            Контент.
+            </summary>
+        </member>
+        <member name="P:Dashboard.Contracts.Files.FileDto.ContentType">
+            <summary>
+            ContentType файла.
+            </summary>
+        </member>
         <member name="P:Dashboard.Contracts.Post.CreatePostDto.Title">
             <summary>
             Заголовок.

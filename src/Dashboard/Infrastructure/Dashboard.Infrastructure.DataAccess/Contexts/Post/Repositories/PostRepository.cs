@@ -1,4 +1,7 @@
 using Dashboard.Application.AppServices.Contexts.Post.Repositories;
+using Dashboard.Contracts;
+using Dashboard.Contracts.Post;
+using Dashboard.Infrastructure.Repository;
 using Dashboard.Infrastructure.Repository;
 
 namespace Dashboard.Infrastructure.DataAccess.Contexts.Post.Repositories;

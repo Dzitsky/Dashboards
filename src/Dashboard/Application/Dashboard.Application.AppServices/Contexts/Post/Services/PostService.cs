@@ -1,5 +1,4 @@
 using Dashboard.Application.AppServices.Contexts.Post.Repositories;
-using Dashboard.Contracts;
 using Dashboard.Contracts.Post;
 
 namespace Dashboard.Application.AppServices.Contexts.Post.Services;

@@ -1,4 +1,5 @@
 ﻿
+using Dashboard.Infrastructure.DataAccess.Contexts.Files.Configuration;
 using Dashboard.Infrastructure.DataAccess.Contexts.Post.Configuration;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +15,7 @@ namespace Dashboard.Infrastructure.DataAccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new PostConfiguration());
+            modelBuilder.ApplyConfiguration(new FileConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }
